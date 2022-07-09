@@ -1,0 +1,75 @@
+body {
+    margin:0px;
+    padding: 0px;
+    background-color: aliceblue;
+}
+
+.page-nav {
+    background-color: rgba(231, 9, 9, 0.87);
+    border: 1px solid black;
+    color: black;
+    position: relative;
+}
+
+.page-nav h1 {
+    margin: 20px;
+}
+
+.page-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.product-container {
+    margin-left: 15px;
+    padding: 5px 16px;
+    position: relative;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    background-color: aliceblue;
+}
+
+.product-container:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.product-container img {
+    width: 260px;
+}
+
+button {
+    font-size: 16px;
+    text-align: center;
+    border-radius: 8px;
+    padding: 10px 25px;
+}
+
+.button-add {
+    border: 2px solid green;
+    background-color: aliceblue;
+    color: black;
+    transition-duration: 0.4s;
+    position: absolute;
+    right: 5px;
+    bottom: 10px;
+}
+
+.button-add:hover {
+    background-color: blue;
+    color: white;
+}
+
+.button-checkout {
+    border: 2px solid green;
+    background-color: aliceblue;
+    color: black;
+    transition-duration: 0.4s;
+    position: absolute;
+    right: 5px;
+    bottom: 10px;
+}
+
+.button-checkout:hover {
+    background-color: blue;
+    color: white;
+}
